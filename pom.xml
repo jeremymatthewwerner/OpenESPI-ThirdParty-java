@@ -135,7 +135,7 @@
             </activation>
             <properties>
                 <datacustodian.base.url>http://localhost:8080/DataCustodian</datacustodian.base.url>
-                <thirdparty.base.url>http://localhost:8080/ThirdParty</thirdparty.base.url>
+                <thirdparty.base.url>http://localhost:9000/ThirdParty</thirdparty.base.url>
                 <template>oauthTemplate</template>
                 <profile>devmysql</profile>
                 <database>mysql</database>
@@ -545,6 +545,7 @@
                     <path>/ThirdParty</path>
                     <url>https://sandbox.greenbutton.org:8443/manager/text</url>
                     <server>TomcatServerDeployment</server>
+                    <port>9000</port>
                 </configuration>
             </plugin>
             <plugin>
